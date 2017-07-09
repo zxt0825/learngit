@@ -27,11 +27,17 @@ git push -u origin master	first time to push
 
 git checkout -b dev		create a branch and checkout to dev
 	git branch dev
-	git checkout dev
+	+git checkout dev
 git merge			merge to update
+git merge --no-ff -m "merge with no-ff"
+git merge --no-ff -m "merged bug fix 101" issue-101
 
 git branch			checkout the branch
 git branch -d dev		delete a branch
 
 git log --graph --pretty=oneline --abbrev-commit
 
+git stash 
+git stash pop			back to the status when you leave and delete the log in stash
+	git stash apply
+	+git stash drop
