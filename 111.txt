@@ -25,3 +25,9 @@ git remote remove origin	remove remote rep
 
 git push -u origin master	first time to push
 
+git checkout -b dev		create a branch and checkout to dev
+	git branch dev
+	git checkout dev
+git checkout -d dev		delete a branch
+
+git branch			checkout the branch
