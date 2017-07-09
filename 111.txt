@@ -5,10 +5,15 @@ ls -a
 
 git add				add sth to working dir
 git commit -m ¡°×¢ÊÍ¡±		to commit the changes
-git reset HEAD readme.txt     	to unstage
+git reset HEAD readme.txt     	to unstage   (HEAD mean the version now)
 git checkout -- readme.txt	to discard changes
 
 git status			to look the status of git
 git init			to init the dir being a git repository
 git diff readme.txt		to see which part is different
+git log (--pretty=oneline)	the log is the version of now and before
+git reflog			the log of changing the version
 	
+git reset --hard HEAD^		(HEAD means the version now ,and ^ means last version.
+git reset --hard 3b1295(commit id)	can back to the version you choose
+
