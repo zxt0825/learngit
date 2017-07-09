@@ -30,7 +30,10 @@ git checkout -b dev		create a branch and checkout to dev
 	+git checkout dev
 git merge			merge to update
 git merge --no-ff -m "merge with no-ff"
+<<<<<<< Updated upstream
 git merge --no-ff -m "merged bug fix 101" issue-101
+=======
+>>>>>>> Stashed changes
 
 git branch			checkout the branch
 git branch -d dev		delete a branch
