@@ -32,3 +32,6 @@ git merge			merge to update
 
 git branch			checkout the branch
 git branch -d dev		delete a branch
+
+git log --graph --pretty=oneline --abbrev-commit
+
