@@ -28,6 +28,7 @@ git push -u origin master	first time to push
 git checkout -b dev		create a branch and checkout to dev
 	git branch dev
 	git checkout dev
-git checkout -d dev		delete a branch
+git merge			merge to update
 
 git branch			checkout the branch
+git branch -d dev		delete a branch
