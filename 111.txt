@@ -1,1 +1,14 @@
-11111111
+pwd				显示当前位置
+mkdir				mkdir learngit
+cd
+ls -a		
+
+git add				add sth to working dir
+git commit -m “注释”		to commit the changes
+git reset HEAD readme.txt     	to unstage
+git checkout -- readme.txt	to discard changes
+
+git status			to look the status of git
+git init			to init the dir being a git repository
+git diff readme.txt		to see which part is different
+	
