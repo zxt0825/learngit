@@ -1,10 +1,11 @@
-pwd				显示当前位置
+pwd				address now
 mkdir				mkdir learngit
 cd
 ls -a		
 
 git add				add sth to working dir
-git commit -m “注释”		to commit the changes
+git commit -m  "...."		to commit the changes
+	   -am "...."		add and commit
 git reset HEAD readme.txt     	to unstage   (HEAD mean the version now)
 git checkout -- readme.txt	to discard changes
 
