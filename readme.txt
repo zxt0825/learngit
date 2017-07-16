@@ -42,3 +42,5 @@ git stash
 git stash pop						back to the status when you leave and delete the log in stash
 	git stash apply
 	+git stash drop
+
+http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
