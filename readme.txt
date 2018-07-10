@@ -9,10 +9,10 @@ git commit -m  "...."					to commit the changes
 git reset HEAD readme.txt     				to unstage   (HEAD mean the version now)
 git checkout -- readme.txt				to discard changes
 
-git status						to look the status of git
+*git status						to look the status of git
 git init						to init the dir to be a git repository
 git diff readme.txt					to see which part is different
-git log (--pretty=oneline)				the log is the version of now and before
+*git log (--pretty=oneline)				the log is the version of now and before
 	git log --graph --pretty=oneline --abbrev-commit
 git reflog						the log of changing the version
 	
@@ -21,13 +21,13 @@ git reset --hard 3b1295(commit id)				can back to the version you choose
 
 git branch (-vv)					see:"master (151b81e version 1.1)"
 
-git remote add origin git@github.com....
+*git remote add origin git@github.com....
 							add remote repository
-git remote remove origin				remove remote rep
+*git remote remove origin				remove remote rep
 
-git push -u origin master				first time to push
+*git push -u origin master				first time to push
 
-git checkout -b dev					create a branch and checkout to dev
+*git checkout -b dev					create a branch and checkout to dev
 	git branch dev
 	+git checkout dev
 	
@@ -35,7 +35,7 @@ git merge						merge to update
 git merge --no-ff -m "merge with no-ff"
 git merge --no-ff -m "merged bug fix 101" issue-101
 
-git branch						checkout the branch
+*git branch						checkout the branch
 git branch -d dev					delete a branch
 
 git stash 
